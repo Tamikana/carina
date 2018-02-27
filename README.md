@@ -273,7 +273,7 @@ Configuration.getDouble(Parameter.BROWSER_VERSION) // returns double value
 ### Environment specific configuration
 In some cases it is required to support multiple environments for testing. Let's assume we have STAG and PROD environments which have different application URLs. In this case we need to specify the following properties in _config.properties:
 ```
-env=DEMO
+env=STAG
 STAG.url=http://stag-app-server.com
 PROD.url=http://prod-app-server.com
 ```
