@@ -71,7 +71,7 @@ public class ModelInfoPage extends AbstractPage {
 ```
 **Important:**
 
-* Page should extend **com.qaprosoft.carina.core.gui.AbstractPage**
+* Page should extends **com.qaprosoft.carina.core.gui.AbstractPage**
 * Use **com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement** instead of Selenium WebElement
 * Locate Page Object classes in src/main/java
 
@@ -134,7 +134,7 @@ public class HomePage extends AbstractPage {
 ```
 **Important:**
 
-* UI Object should extend **com.qaprosoft.carina.core.gui.AbstractUIObject**
+* UI Object should extends **com.qaprosoft.carina.core.gui.AbstractUIObject**
 * You should call super constructor **super(driver, searchContext)** where searchContext is instance of **org.openqa.selenium.SearchContext**
 * Locate UI Object classes in src/main/java source folder
 
